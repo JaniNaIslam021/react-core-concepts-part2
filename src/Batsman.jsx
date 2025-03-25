@@ -24,7 +24,7 @@ export default
                 
             }
             {
-                Run > 100 && <p>Century</p>
+                Run > 99 && <p>Century</p>
             }
             <h2>Score: {Run}</h2>
             <button onClick={handleSingles}>Single</button>
